@@ -43,15 +43,16 @@ class ClosedRegistrationsModal extends ImmutablePureComponent {
       <div className='modal-root__modal interaction-modal'>
         <div className='interaction-modal__lead'>
           <h3><FormattedMessage id='closed_registrations_modal.title' defaultMessage='Signing up on Mastodon' /></h3>
-          <p>
+            {closedRegistrationsMessage}
+	    {/*<p>
             <FormattedMessage
               id='closed_registrations_modal.preamble'
               defaultMessage='Mastodon is decentralized, so no matter where you create your account, you will be able to follow and interact with anyone on this server. You can even self-host it!'
             />
-          </p>
+          </p>*/}
         </div>
 
-        <div className='interaction-modal__choices'>
+	    {/*<div className='interaction-modal__choices'>
           <div className='interaction-modal__choices__choice'>
             <h3><FormattedMessage id='interaction_modal.on_this_server' defaultMessage='On this server' /></h3>
             {closedRegistrationsMessage}
@@ -63,11 +64,11 @@ class ClosedRegistrationsModal extends ImmutablePureComponent {
               <FormattedMessage
                 id='closed_registrations.other_server_instructions'
                 defaultMessage='Since Mastodon is decentralized, you can create an account on another server and still interact with this one.'
-              />
+             />
             </p>
             <a href='https://joinmastodon.org/servers' className='button button--block'><FormattedMessage id='closed_registrations_modal.find_another_server' defaultMessage='Find another server' /></a>
           </div>
-        </div>
+        </div>*/}
       </div>
     );
   }
