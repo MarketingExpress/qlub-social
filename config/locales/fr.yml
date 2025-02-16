@@ -1,7 +1,7 @@
 ---
 fr:
   about:
-    about_mastodon_html: 'Le réseau social de l''avenir : pas de publicité, pas de surveillance institutionnelle, conception éthique et décentralisation ! Gardez le contrôle de vos données avec Mastodon !'
+    about_mastodon_html: 'Le réseau social de l''avenir : pas de publicité, pas de surveillance institutionnelle, conception éthique et décentralisation ! Gardez le contrôle de vos données avec Qlub !'
     contact_missing: Non défini
     contact_unavailable: Non disponible
     hosted_on: Serveur Mastodon hébergé sur %{domain}
@@ -693,7 +693,7 @@ fr:
         moderation: Modération
         special: Spécial
       delete: Supprimer
-      description_html: Les <strong>rôles utilisateur</strong> vous permettent de personnaliser les fonctions et les zones de Mastodon auxquelles vos utilisateur⋅rice⋅s peuvent accéder.
+      description_html: Les <strong>rôles utilisateur</strong> vous permettent de personnaliser les fonctions et les zones de Qlub auxquelles vos utilisateur⋅rice⋅s peuvent accéder.
       edit: Modifier le rôle '%{name}'
       everyone: Autorisations par défaut
       everyone_full_description_html: Ceci est le <strong>rôle de base</strong> qui impacte <strong>tou⋅te⋅s les utilisateur⋅rice⋅s</strong>, même celleux sans rôle assigné. Tous les autres rôles héritent des autorisations de celui-ci.
@@ -756,24 +756,24 @@ fr:
         rules_hint: Il y a un espace dédié pour les règles auxquelles vos utilisateurs sont invités à adhérer.
         title: À propos
       appearance:
-        preamble: Personnaliser l'interface web de Mastodon.
+        preamble: Personnaliser l'interface web de Qlub.
         title: Apparence
       branding:
-        preamble: L'image de marque de votre serveur la différencie des autres serveurs du réseau. Ces informations peuvent être affichées dans nombre d'environnements, tels que l'interface web de Mastodon, les applications natives, dans les aperçus de liens sur d'autres sites Web et dans les applications de messagerie, etc. C'est pourquoi il est préférable de garder ces informations claires, courtes et concises.
+        preamble: L'image de marque de votre serveur la différencie des autres serveurs du réseau. Ces informations peuvent être affichées dans nombre d'environnements, tels que l'interface web de Qlub, les applications natives, dans les aperçus de liens sur d'autres sites Web et dans les applications de messagerie, etc. C'est pourquoi il est préférable de garder ces informations claires, courtes et concises.
         title: Thème
       captcha_enabled:
         desc_html: Ceci se base sur des scripts externes venant de hCaptcha, ce qui peut engendrer des soucis de sécurité et de confidentialité. De plus, <strong>cela peut rendre l'inscription beaucoup moins accessible pour certaines personnes (comme les personnes handicapées)</strong>. Pour ces raisons, veuillez envisager des mesures alternatives telles que l'inscription sur acceptation ou invitation.
         title: Exiger que les nouveaux utilisateurs résolvent un CAPTCHA pour confirmer leur compte
       content_retention:
         danger_zone: Zone de danger
-        preamble: Contrôle comment le contenu créé par les utilisateurs est enregistré et stocké dans Mastodon.
+        preamble: Contrôle comment le contenu créé par les utilisateurs est enregistré et stocké dans Qlub.
         title: Rétention du contenu
       default_noindex:
         desc_html: Affecte tous les comptes qui n'ont pas modifié ce paramètre
         title: Par défaut, ne pas indexer les comptes dans les moteurs de recherche
       discovery:
         follow_recommendations: Suivre les recommandations
-        preamble: Il est essentiel de donner de la visibilité à des contenus intéressants pour attirer des utilisateur⋅rice⋅s néophytes qui ne connaissent peut-être personne sur Mastodon. Contrôlez le fonctionnement des différentes fonctionnalités de découverte sur votre serveur.
+        preamble: Il est essentiel de donner de la visibilité à des contenus intéressants pour attirer des utilisateur⋅rice⋅s néophytes qui ne connaissent peut-être personne sur Qlub. Contrôlez le fonctionnement des différentes fonctionnalités de découverte sur votre serveur.
         profile_directory: Annuaire des profils
         public_timelines: Fils publics
         publish_discovered_servers: Publier les serveurs découverts
@@ -805,7 +805,7 @@ fr:
       destroyed_msg: Téléversement sur le site supprimé avec succès !
     software_updates:
       critical_update: Critique — veuillez mettre à jour au plus vite
-      description: Il est recommandé de maintenir votre installation de Mastodon à jour afin de bénéficier des derniers correctifs et fonctionnalités. Par ailleurs, il est parfois critique de mettre à jour Mastodon en temps voulu de manière à éviter les incidents relatifs à la sécurité. Pour ces raisons, Mastodon examine la disponibilté des mises à jour toutes les 30 minutes, et vous en avisera en fonction de vos préférences de notification par messagerie électronique.
+      description: Il est recommandé de maintenir votre installation de Qlub à jour afin de bénéficier des derniers correctifs et fonctionnalités. Par ailleurs, il est parfois critique de mettre à jour Qlub en temps voulu de manière à éviter les incidents relatifs à la sécurité. Pour ces raisons, Qlub examine la disponibilté des mises à jour toutes les 30 minutes, et vous en avisera en fonction de vos préférences de notification par messagerie électronique.
       documentation_link: En savoir plus
       release_notes: Notes de mises à jour
       title: Mises à jour disponibles
@@ -863,7 +863,7 @@ fr:
         message_html: Les correspondances (mappings) des indexes Elasticsearch ne sont plus à jour. Veuillez lancer <code>tootctl search deploy --only=%{value}</code>
       elasticsearch_preset:
         action: Voir la documentation
-        message_html: Votre cluster Elasticsearch a plus d’un nœud, mais Mastodon n’a pas été configuré pour les utiliser.
+        message_html: Votre cluster Elasticsearch a plus d’un nœud, mais Qlub n’a pas été configuré pour les utiliser.
       elasticsearch_preset_single_node:
         action: Voir la documentation
         message_html: Votre cluster Elasticsearch n’a qu’un seul nœud, <code>ES_PRESET</code> devrait avoir la valeur <code>single_node_cluster</code>.
@@ -881,13 +881,13 @@ fr:
         message_html: Aucun processus Sidekiq en cours d'exécution pour la/les file(s) d'attente %{value}. Veuillez vérifier votre configuration de Sidekiq
       software_version_check:
         action: Voir les mises à jour disponibles
-        message_html: Une mise à jour de Mastodon est disponible.
+        message_html: Une mise à jour de Qlub est disponible.
       software_version_critical_check:
         action: Voir les mises à jour disponibles
-        message_html: Une mise à jour critique de Mastodon est disponible, veuillez mettre à jour le plus rapidement possible.
+        message_html: Une mise à jour critique de Qlub est disponible, veuillez mettre à jour le plus rapidement possible.
       software_version_patch_check:
         action: Voir les mises à jour disponibles
-        message_html: Une mise à jour de correction de bug de Mastodon est disponible.
+        message_html: Une mise à jour de correction de bug de Qlub est disponible.
       upload_check_privacy_error:
         action: Pour plus d'informations, cliquez ici
         message_html: "<strong>Votre serveur web est mal configuré. La confidentialité de vos utilisateurs est en péril.</strong>"
@@ -998,7 +998,7 @@ fr:
     webhooks:
       add_new: Ajouter un point de terminaison
       delete: Supprimer
-      description_html: Un <strong>point d'ancrage web</strong> permet à Mastodon d'envoyer des <strong>notifications en temps réel</strong> concernant des événements sélectionnés vers votre propre application, afin que celle-ci puisse <strong>déclencher automatiquement des réactions</strong>.
+      description_html: Un <strong>point d'ancrage web</strong> permet à Qlub d'envoyer des <strong>notifications en temps réel</strong> concernant des événements sélectionnés vers votre propre application, afin que celle-ci puisse <strong>déclencher automatiquement des réactions</strong>.
       disable: Désactiver
       disabled: Désactivé
       edit: Modifier le point de terminaison
@@ -1032,8 +1032,8 @@ fr:
       next_steps: Vous pouvez approuver l'appel pour annuler la décision de modération, ou l'ignorer.
       subject: "%{username} fait appel d'une décision de modération sur %{instance}"
     new_critical_software_updates:
-      body: Des nouvelles mises à jour critiques de Mastodon ont été publiées, vous avez sans doute envie de les appliquer dès que possible !
-      subject: Des mises à jour critiques de Mastodon sont disponibles pour %{instance} !
+      body: Des nouvelles mises à jour critiques de Qlub ont été publiées, vous avez sans doute envie de les appliquer dès que possible !
+      subject: Des mises à jour critiques de Qlub sont disponibles pour %{instance} !
     new_pending_account:
       body: Les détails du nouveau compte se trouvent ci-dessous. Vous pouvez approuver ou rejeter cette demande.
       subject: Nouveau compte à examiner sur %{instance} (%{username})
@@ -1042,7 +1042,7 @@ fr:
       body_remote: Quelqu’un de %{domain} a signalé %{target}
       subject: Nouveau signalement sur %{instance} (#%{id})
     new_software_updates:
-      body: De nouvelles mises à jour de Mastodon ont été publiées, vous avez sans doute envie de les appliquer !
+      body: De nouvelles mises à jour de Qlub ont été publiées, vous avez sans doute envie de les appliquer !
       subject: Nouvelles mises à jour disponibles pour %{instance} !
     new_trends:
       body: 'Les éléments suivants doivent être approuvés avant de pouvoir être affichés publiquement :'
@@ -1106,9 +1106,9 @@ fr:
     delete_account: Supprimer le compte
     delete_account_html: Si vous désirez supprimer votre compte, vous pouvez <a href="%{path}">cliquer ici</a>. Il vous sera demandé de confirmer cette action.
     description:
-      prefix_invited_by_user: "@%{name} vous invite à rejoindre ce serveur Mastodon !"
-      prefix_sign_up: Inscrivez-vous aujourd’hui sur Mastodon !
-      suffix: Avec un compte, vous pourrez suivre des gens, publier des statuts et échanger des messages avec les utilisateur·rice·s de n'importe quel serveur Mastodon et bien plus !
+      prefix_invited_by_user: "@%{name} vous invite à rejoindre Qlub !"
+      prefix_sign_up: Inscrivez-vous aujourd’hui sur Qlub !
+      suffix: Avec un compte, vous pourrez suivre des gens, publier des statuts et échanger des messages avec les utilisateur·rice·s sur Qlub et bien plus !
     didnt_get_confirmation: Vous n'avez pas reçu de lien de confirmation ?
     dont_have_your_security_key: Vous n'avez pas votre clé de sécurité?
     forgot_password: Mot de passe oublié ?
@@ -1155,7 +1155,7 @@ fr:
       title: Se connecter à %{domain}
     sign_up:
       manual_review: Les inscriptions sur %{domain} passent par une revue manuelle de nos modérateurs. Pour les aider, écrivez un peu plus sur vous et pourquoi vous souhaitez créer un compte sur %{domain}.
-      preamble: Avec un compte sur ce serveur Mastodon, vous serez en mesure de suivre toute autre personne sur le réseau, quel que soit l’endroit où son compte est hébergé.
+      preamble: Avec un compte sur Qlub, vous serez en mesure de suivre toute autre personne sur le réseau, quel que soit l’endroit où son compte est hébergé.
       title: Mettons les choses en place pour %{domain}.
     status:
       account_status: État du compte
@@ -1263,7 +1263,7 @@ fr:
       content: Nous sommes désolé·e·s, mais quelque chose s’est mal passé de notre côté.
       title: Cette page n’est pas correcte
     '503': La page n'a pas pu être servie en raison d'une défaillance temporaire du serveur.
-    noscript_html: Pour utiliser Mastodon, veuillez activer JavaScript. Sinon, essayez l’une des <a href="%{apps_path}">applications natives</a> pour Mastodon pour votre plate-forme.
+    noscript_html: Pour utiliser Qlub, veuillez activer JavaScript. Sinon, essayez l’une des <a href="%{apps_path}">applications natives</a> pour Qlub pour votre plate-forme.
   existing_username_validator:
     not_found: impossible de trouver un·e utilisateur·ice local·e de ce nom
     not_found_multiple: n’a pas trouvé %{usernames}
@@ -1452,7 +1452,7 @@ fr:
     unsubscribe:
       action: Oui, se désinscrire
       complete: Désinscrit
-      confirmation_html: Êtes-vous sûr de vouloir vous désabonner de la réception de %{type} pour Mastodon sur %{domain} à votre adresse e-mail %{email} ? Vous pouvez toujours vous réabonner à partir de vos paramètres de <a href="%{settings_path}">notification par messagerie</a>.
+      confirmation_html: Êtes-vous sûr de vouloir vous désabonner de la réception de %{type} pour Qlub à votre adresse e-mail %{email} ? Vous pouvez toujours vous réabonner à partir de vos paramètres de <a href="%{settings_path}">notification par messagerie</a>.
       emails:
         notification_emails:
           favourite: e-mails de notifications de favoris
@@ -1461,7 +1461,7 @@ fr:
           mention: e-mails de notifications de mentions
           reblog: e-mails de notifications de partages
       resubscribe_html: Si vous vous êtes désinscrit par erreur, vous pouvez vous réinscrire à partir de vos <a href="%{settings_path}">paramètres de notification par e-mail</a>.
-      success_html: Vous ne recevrez plus de %{type} pour Mastodon sur %{domain} à votre adresse e-mail à %{email}.
+      success_html: Vous ne recevrez plus de %{type} pour Qlub sur %{domain} à votre adresse e-mail à %{email}.
       title: Se désinscrire
   media_attachments:
     validations:
@@ -1587,13 +1587,13 @@ fr:
     posting_defaults: Paramètres de publication par défaut
     public_timelines: Fils publics
   privacy:
-    hint_html: "<strong>Personnalisez la façon dont votre profil et vos messages peuvent être découverts.</strong> Mastodon peut vous aider à atteindre un public plus large lorsque certains paramètres sont activés. Prenez le temps de les examiner pour vous assurer qu’ils sont configurés comme vous le souhaitez."
+    hint_html: "<strong>Personnalisez la façon dont votre profil et vos messages peuvent être découverts.</strong> Qlub peut vous aider à atteindre un public plus large lorsque certains paramètres sont activés. Prenez le temps de les examiner pour vous assurer qu’ils sont configurés comme vous le souhaitez."
     privacy: Confidentialité
     privacy_hint_html: Contrôlez ce que vous souhaitez divulguer. Les gens découvrent des profils intéressants en parcourant ceux suivis par d’autres personnes et des applications sympas en voyant lesquelles sont utilisées par d’autres pour publier des messages, mais vous préférez peut-être ne pas dévoiler ces informations.
     reach: Portée
     reach_hint_html: Contrôlez si vous souhaitez être découvert et suivi par de nouvelles personnes. Voulez-vous que vos publications apparaissent sur l’écran Explorer ? Voulez-vous que d’autres personnes vous voient dans leurs recommandations de suivi ? Souhaitez-vous approuver automatiquement tous les nouveaux abonnés ou avoir un contrôle granulaire sur chacun d’entre eux ?
     search: Recherche
-    search_hint_html: Contrôlez la façon dont vous voulez être retrouvé. Voulez-vous que les gens vous trouvent selon ce que vous avez publié publiquement ? Voulez-vous que des personnes extérieures à Mastodon trouvent votre profil en faisant des recherches sur le web ? N’oubliez pas que l’exclusion totale de tous les moteurs de recherche ne peut être garantie pour les informations publiques.
+    search_hint_html: Contrôlez la façon dont vous voulez être retrouvé. Voulez-vous que les gens vous trouvent selon ce que vous avez publié publiquement ? Voulez-vous que des personnes extérieures à Qlub trouvent votre profil en faisant des recherches sur le web ? N’oubliez pas que l’exclusion totale de tous les moteurs de recherche ne peut être garantie pour les informations publiques.
     title: Vie privée et visibilité
   privacy_policy:
     title: Politique de confidentialité
@@ -1668,7 +1668,7 @@ fr:
     current_session: Session courante
     date: Date
     description: "%{browser} sur %{platform}"
-    explanation: Ceci est la liste des navigateurs actuellement connectés à votre compte Mastodon.
+    explanation: Ceci est la liste des navigateurs actuellement connectés à votre compte Qlub.
     ip: Adresse IP
     platforms:
       adobe_air: Adobe Air
@@ -1694,7 +1694,7 @@ fr:
     aliases: Alias du compte
     appearance: Apparence
     authorized_apps: Applications autorisées
-    back: Retour vers Mastodon
+    back: Retour vers Qlub
     delete: Suppression du compte
     development: Développement
     edit_profile: Modifier le profil
@@ -1802,9 +1802,9 @@ fr:
   tags:
     does_not_match_previous_name: ne correspond pas au nom précédent
   themes:
-    contrast: Mastodon (Contraste élevé)
-    default: Mastodon (Sombre)
-    mastodon-light: Mastodon (Clair)
+    contrast: Qlub (Contraste élevé)
+    default: Qlub (Sombre)
+    mastodon-light: Qlub (Clair)
     system: Automatique (utiliser le thème système)
   time:
     formats:
@@ -1844,7 +1844,7 @@ fr:
       subtitle: Votre appel a été rejeté.
       title: Appel rejeté
     backup_ready:
-      explanation: Vous avez demandé une sauvegarde complète de votre compte Mastodon.
+      explanation: Vous avez demandé une sauvegarde complète de votre compte Qlub.
       extra: Elle est maintenant prête à être téléchargée !
       subject: Votre archive est prête à être téléchargée
       title: Récupération de l’archive
@@ -1896,7 +1896,7 @@ fr:
       apps_android_action: Disponible sur Google Play
       apps_ios_action: Télécharger sur l'App Store
       apps_step: Téléchargez nos applications officielles.
-      apps_title: Applications Mastodon
+      apps_title: Applications Qlub
       checklist_subtitle: 'Commencez votre aventure sur le web social:'
       checklist_title: Premières étapes
       edit_profile_action: Personnaliser
@@ -1904,16 +1904,16 @@ fr:
       edit_profile_title: Personnaliser votre profil
       explanation: Voici quelques conseils pour vous aider à démarrer
       feature_action: En savoir plus
-      feature_audience: Mastodon vous offre une possibilité unique de gérer votre audience sans intermédiaires. Mastodon peut être déployé sur votre propre infrastructure, ce qui vous permet de suivre et d'être suivi depuis n'importe quel autre serveur Mastodon et de n'être contrôlé par personne d'autre que vous.
+      feature_audience: Qlub vous offre une possibilité unique de gérer votre audience sans intermédiaires. Qlub vous permet de suivre et d'être suivi et n'est contrôlé par personne d'autre que vous.
       feature_audience_title: Construisez votre audience en toute confiance
-      feature_control: Vous savez mieux que quiconque ce que vous voulez voir sur votre fil principal. Personne ne veut d'un algorithme qui décide à vote place ou de publicité qui vous fera perdre votre temps. Suivez n'importe qui, sur n'importe quel serveur Mastodon, depuis votre compte. Recevez les publications du monde entier dans l'ordre chronologique et créez-vous votre chez-vous numérique qui vous ressemble.
+      feature_control: Vous savez mieux que quiconque ce que vous voulez voir sur votre fil principal. Personne ne veut d'un algorithme qui décide à vote place ou de publicité qui vous fera perdre votre temps. Suivez n'importe qui, depuis votre compte. Recevez les publications du monde entier dans l'ordre chronologique et créez-vous votre chez-vous numérique qui vous ressemble.
       feature_control_title: Gardez le contrôle de votre fil
-      feature_creativity: Mastodon prend en charge les messages audio, vidéo et photo, les descriptions d'accessibilité, les sondages, les avertissements de contenu, les avatars animés, les émojis personnalisés, le contrôle des vignettes et bien plus encore pour vous aider à vous exprimer en ligne. Que vous publiiez votre art, votre musique ou votre podcast, Mastodon est là pour vous.
+      feature_creativity: Qlub prend en charge les messages audio, vidéo et photo, les descriptions d'accessibilité, les sondages, les avertissements de contenu, les avatars animés, les émojis personnalisés, le contrôle des vignettes et bien plus encore pour vous aider à vous exprimer en ligne. Que vous publiiez votre art, votre musique ou votre podcast, Qlub est là pour vous.
       feature_creativity_title: Créativité inégalée
-      feature_moderation: Mastodon vous redonne le contrôle. Chaque serveur établit ses propres règles, appliquées localement et non pas de manière verticale comme sur les médias sociaux commerciaux, donnant davantage de souplesse pour répondre aux besoins de différentes communautés. Rejoignez un serveur avec des règles qui vous conviennent, ou bien hébergez le vôtre.
+      feature_moderation: Qlub vous redonne le contrôle. Chaque serveur établit ses propres règles, appliquées localement et non pas de manière verticale comme sur les médias sociaux commerciaux, donnant davantage de souplesse pour répondre aux besoins de différentes communautés.
       feature_moderation_title: La modération comme elle doit être
       follow_action: Suivre
-      follow_step: Suivre des personnes intéressantes est l'essence de Mastodon.
+      follow_step: Suivre des personnes intéressantes est l'essence de Qlub.
       follow_title: Personnaliser votre fil principal
       follows_subtitle: Suivez des comptes populaires
       follows_title: Qui suivre
@@ -1928,10 +1928,10 @@ fr:
       post_step: Dites bonjour au monde avec du texte, des photos, des vidéos ou des sondages.
       post_title: Rédiger votre premier message
       share_action: Partager
-      share_step: Faites savoir à vos ami·e·s comment vous trouver sur Mastodon.
-      share_title: Partager votre profil Mastodon
+      share_step: Faites savoir à vos ami·e·s comment vous trouver sur Qlub.
+      share_title: Partager votre profil Qlub
       sign_in_action: Se connecter
-      subject: Bienvenue sur Mastodon
+      subject: Bienvenue sur Qlub
       title: Bienvenue à bord, %{name} !
   users:
     follow_limit_reached: Vous ne pouvez pas suivre plus de %{limit} personnes
@@ -1944,7 +1944,7 @@ fr:
   verification:
     extra_instructions_html: <strong>Astuce :</strong> Le lien sur votre site Web peut être invisible. La partie importante est <code>rel="me"</code> qui évite que soient pris en compte d’autres liens provenant de contenu générés par des utilisateurs tiers. Vous pouvez même utiliser une balise <code>link</code> dans l’en-tête de la page au lieu de <code>a</code>, mais le HTML doit être accessible sans avoir besoin d’exécuter du JavaScript.
     here_is_how: Voici comment
-    hint_html: "<strong>La vérification de son profil sur Mastodon est accessible à tous.</strong> Elle s’appuie sur des standards ouverts du web, gratuits aujourd’hui et pour toujours. Tout ce dont vous avez besoin, c’est d’un site web personnel qui vous est associé dans l’esprit des gens. Lorsque vous ajoutez un lien depuis votre profil, nous vérifierons que le site web renvoie à son tour à votre profil Mastodon et montrerons un indicateur visuel à côté du lien si c’est le cas."
+    hint_html: "<strong>La vérification de son profil sur Qlub est accessible à tous.</strong> Elle s’appuie sur des standards ouverts du web, gratuits aujourd’hui et pour toujours. Tout ce dont vous avez besoin, c’est d’un site web personnel qui vous est associé dans l’esprit des gens. Lorsque vous ajoutez un lien depuis votre profil, nous vérifierons que le site web renvoie à son tour à votre profil Qlub et montrerons un indicateur visuel à côté du lien si c’est le cas."
     instructions_html: Copiez et collez le code ci-dessous dans le code HTML de votre site web. Ajoutez ensuite l’adresse de votre site dans l’un des champs supplémentaires de votre profil à partir de l‘onglet « Modifier le profil » et enregistrez les modifications.
     verification: Vérification
     verified_links: Vos liens vérifiés
