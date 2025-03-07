@@ -3,10 +3,10 @@ fr:
   simple_form:
     hints:
       account:
-        discoverable: Vos messages publics et votre profil peuvent être mis en avant ou recommandés dans diverses parties de Mastodon et votre profil peut être suggéré à d’autres utilisateurs.
+        discoverable: Vos messages publics et votre profil peuvent être mis en avant ou recommandés dans diverses parties de Qlub et votre profil peut être suggéré à d’autres utilisateurs.
         display_name: Votre nom complet ou votre nom rigolo.
         fields: Votre page personnelle, vos pronoms, votre âge, ce que vous voulez.
-        indexable: Vos messages publics peuvent apparaître dans les résultats de recherche sur Mastodon. Les personnes qui ont interagi avec vos messages peuvent les trouver dans une recherche quoi qu’il arrive.
+        indexable: Vos messages publics peuvent apparaître dans les résultats de recherche sur Qlub. Les personnes qui ont interagi avec vos messages peuvent les trouver dans une recherche quoi qu’il arrive.
         note: 'Vous pouvez @mentionner d’autres personnes ou des #hashtags.'
         show_collections: Les gens pourront voir les personnes que vous suivez ou qui vous suivent. Ceux que vous suivez verront que vous les suivez dans tous les cas.
         unlocked: Les gens pourront vous suivre sans demander d'approbation. Décochez cette option si vous voulez valider les demandes d'abonnement et choisir d'accepter ou de rejeter les nouveaux abonnés.
@@ -54,7 +54,7 @@ fr:
         phrase: Sera filtré peu importe la casse ou l’avertissement de contenu du message
         scopes: À quelles APIs l’application sera autorisée à accéder. Si vous sélectionnez une permission générale, vous n’avez pas besoin de sélectionner les permissions plus précises.
         setting_aggregate_reblogs: Ne pas afficher les nouveaux partages pour les messages déjà récemment partagés (n’affecte que les partages futurs)
-        setting_always_send_emails: Normalement, les notifications par courriel ne seront pas envoyées lorsque vous utilisez Mastodon activement
+        setting_always_send_emails: Normalement, les notifications par courriel ne seront pas envoyées lorsque vous utilisez Qlub activement
         setting_default_sensitive: Les médias sensibles sont cachés par défaut et peuvent être révélés d’un simple clic
         setting_display_media_default: Masquer les médias marqués comme sensibles
         setting_display_media_hide_all: Toujours masquer les médias
@@ -77,20 +77,20 @@ fr:
           warn: Cacher le contenu filtré derrière un avertissement mentionnant le nom du filtre
       form_admin_settings:
         activity_api_enabled: Nombre de messages publiés localement, de comptes actifs et de nouvelles inscriptions par tranche hebdomadaire
-        app_icon: WEBP, PNG, GIF ou JPG. Remplace la favicon Mastodon par défaut avec une icône personnalisée.
+        app_icon: WEBP, PNG, GIF ou JPG. Remplace la favicon Qlub par défaut avec une icône personnalisée.
         backups_retention_period: Les utilisateur·rice·s ont la possibilité de générer des archives de leurs messages pour les télécharger plus tard. Lorsqu'elles sont définies à une valeur positive, ces archives seront automatiquement supprimées de votre stockage après le nombre de jours spécifié.
         bootstrap_timeline_accounts: Ces comptes seront épinglés en tête de liste des recommandations pour les nouveaux utilisateurs.
         closed_registrations_message: Affiché lorsque les inscriptions sont fermées
         content_cache_retention_period: Tous les messages provenant d'autres serveurs (y compris les partages et les réponses) seront supprimés passé le nombre de jours spécifié, sans tenir compte de l'interaction de l'utilisateur·rice local·e avec ces messages. Cela inclut les messages qu'un·e utilisateur·rice aurait marqué comme signets ou comme favoris. Les mentions privées entre utilisateur·rice·s de différentes instances seront également perdues et impossibles à restaurer. L'utilisation de ce paramètre est destinée à des instances spécifiques et contrevient à de nombreuses attentes des utilisateurs lorsqu'elle est appliquée à des fins d'utilisation ordinaires.
-        custom_css: Vous pouvez appliquer des styles personnalisés sur la version Web de Mastodon.
-        favicon: WEBP, PNG, GIF ou JPG. Remplace la favicon Mastodon par défaut avec une icône personnalisée.
+        custom_css: Vous pouvez appliquer des styles personnalisés sur la version Web de Qlub.
+        favicon: WEBP, PNG, GIF ou JPG. Remplace la favicon Qlub par défaut avec une icône personnalisée.
         mascot: Remplace l'illustration dans l'interface Web avancée.
         media_cache_retention_period: Les fichiers médias des messages publiés par des utilisateurs distants sont mis en cache sur votre serveur. Lorsque cette valeur est positive, les médias sont supprimés au terme du nombre de jours spécifié. Si les données des médias sont demandées après leur suppression, elles seront téléchargées à nouveau, dans la mesure où le contenu source est toujours disponible. En raison des restrictions concernant la fréquence à laquelle les cartes de prévisualisation des liens interrogent des sites tiers, il est recommandé de fixer cette valeur à au moins 14 jours, faute de quoi les cartes de prévisualisation des liens ne seront pas mises à jour à la demande avant cette échéance.
         peers_api_enabled: Une liste de noms de domaine que ce serveur a rencontrés dans le fédiverse. Aucune donnée indiquant si vous vous fédérez ou non avec un serveur particulier n'est incluse ici, seulement l'information que votre serveur connaît un autre serveur. Cette option est utilisée par les services qui collectent des statistiques sur la fédération en général.
         profile_directory: L'annuaire des profils répertorie tous les comptes qui choisi d'être découvrables.
         require_invite_text: Lorsque les inscriptions nécessitent une approbation manuelle, rendre le texte de l’invitation "Pourquoi voulez-vous vous inscrire ?" obligatoire plutôt que facultatif
         site_contact_email: Comment l'on peut vous joindre pour des requêtes d'assistance ou d'ordre juridique.
-        site_contact_username: Comment les gens peuvent vous contacter sur Mastodon.
+        site_contact_username: Comment les gens peuvent vous contacter sur Qlub.
         site_extended_description: Toute information supplémentaire qui peut être utile aux non-inscrit⋅e⋅s et à vos utilisateur⋅rice⋅s. Peut être structurée avec la syntaxe Markdown.
         site_short_description: Une description brève pour aider à faire connaître votre serveur de manière unique. Qui s'en occupe ? à qui est-il destiné ?
         site_terms: Utilisez votre propre politique de confidentialité ou laissez vide pour utiliser les conditions définies par défaut. Peut être structurée avec la syntaxe Markdown.
@@ -105,7 +105,7 @@ fr:
       form_challenge:
         current_password: Vous entrez une zone sécurisée
       imports:
-        data: Un fichier CSV généré par un autre serveur de Mastodon
+        data: Un fichier CSV généré par un autre serveur de Qlub
       invite_request:
         text: Cela nous aidera à considérer votre demande
       ip_block:
@@ -300,7 +300,7 @@ fr:
         software_updates:
           all: Notifier toutes les mises à jour
           critical: Notifier pour les mises à jour critiques uniquement
-          label: Une nouvelle mise à jour de Mastodon est disponible
+          label: Une nouvelle mise à jour de Qlub est disponible
           none: Ne jamais notifier des mises à jour (déconseillé)
           patch: Notifier pour des mises à jour de corrections de bug
         trending_tag: Nouvelle tendance nécessitant supervision
