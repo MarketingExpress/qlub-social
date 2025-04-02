@@ -1,0 +1,22 @@
+COMPILATEUR_CÉ := gcc
+DRAPEUX_CÉ := -Wall -Ibibliothèques
+
+ANNUAIRE_SOURCE := code
+FICHIERS_SOURCE := $(wildcard $(ANNUAIRE_SOURCE)/*.c)
+
+FICHIERS_OBJET := $(FICHIERS_SOURCE:.c=.o)
+
+EXÉCUTABLE := qlub
+
+construire: $(EXÉCUTABLE)
+
+$(EXÉCUTABLE): $(FICHIERS_OBJET)
+	$(COMPILATEUR_CÉ) -o $(EXÉCUTABLE) $(FICHIERS_OBJET)
+
+%.o: %.c
+	$(COMPILATEUR_CÉ) -c $(DRAPEUX_CÉ) $< -o $@
+
+nettoyer:
+	rm -f $(OBJ_FILES) $(OUTPUT)
+
+.PHONY: construire nettoyer
