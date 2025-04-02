@@ -1,0 +1,180 @@
+                    LICENCE PUBLIQUE GÉNÉRALE QC
+                       Version 1, Avril 2025
+
+ Droit d'auteur (DC) 2025 Le Ministère de la Programmation et du Code Source Ouvert du Québec (MPCSOQ),
+ 201 Rue Ginette, 17e étage, Québec, QC Q0C 0Q0
+ Chacun est autorisé à copier et distribuer des copies exactes
+ de ce document de licence, mais toute modification est interdite.
+
+                            Préambule
+
+  Les licences pour la plupart des logiciels sont conçues pour vous
+retirer la liberté de partager et de modifier le logiciel.  En revanche, la Licence Publique
+Générale QC est destinée à garantir votre liberté de partager et de modifier les logiciels
+libres - pour s'assurer que le logiciel reste libre pour tous ses utilisateurs. Cette
+Licence Publique Générale s'applique à la plupart des logiciels du Ministère de la Programmation 
+et du Code Source Ouvert du Québec et à tout autre programme dont les auteurs s'engagent à l'utiliser. (Certains
+autres logiciels du Ministère de la Programmation et du Code Source Ouvert du Québec sont couverts par la Licence Publique
+Générale QC moins sévère.) Vous pouvez également l'appliquer à vos programmes.
+
+  Lorsque nous parlons de logiciel libre, nous faisons référence à la liberté, pas au prix.
+Nos Licences Publiques Générales sont conçues pour vous assurer que vous avez la liberté
+de distribuer des copies de logiciels libres (et de facturer ce service si vous le souhaitez),
+que vous receviez le code source ou que vous puissiez l'obtenir si vous le souhaitez, que vous
+puissiez modifier le logiciel ou utiliser des parties de celui-ci dans de nouveaux programmes
+libres ; et que vous sachiez que vous pouvez faire ces choses.
+
+  Pour protéger vos droits, nous devons imposer des restrictions qui interdisent à
+quiconque de vous refuser ces droits ou de vous demander de renoncer à ces droits.
+Ces restrictions se traduisent par certaines responsabilités pour vous si vous distribuez
+des copies du logiciel, ou si vous le modifiez.
+
+  Par exemple, si vous distribuez des copies de ce programme, gratuitement ou contre
+rémunération, vous devez donner aux destinataires tous les droits que vous avez.
+Vous devez vous assurer qu'ils, eux aussi, reçoivent ou peuvent obtenir le
+code source. Et vous devez leur montrer ces termes pour qu'ils connaissent leurs
+droits.
+
+  Nous protégeons vos droits par deux étapes : (1) copyright du logiciel, et
+(2) vous offrir cette licence qui vous donne la permission légale de copier,
+distribuer et/ou modifier le logiciel.
+
+  De plus, pour la protection de chaque auteur et de la nôtre, nous voulons
+faire en sorte que tout le monde comprenne qu'il n'y a aucune garantie pour ce logiciel libre.
+Si le logiciel est modifié par quelqu'un d'autre et transmis, nous
+voulons que ses destinataires sachent que ce qu'ils ont n'est pas l'original, afin
+que tout problème introduit par d'autres ne nuise pas à la réputation des auteurs
+originaux.
+
+  Enfin, tout programme libre est constamment menacé par des brevets logiciels.
+Nous souhaitons éviter le danger que les redistributeurs d'un programme libre obtiennent
+individuellement des licences de brevets, rendant ainsi le programme propriétaire.
+Pour éviter cela, nous avons précisé que tout brevet doit être licencié pour un usage
+libre pour tous ou ne pas être licencié du tout.
+
+  Les termes et conditions précis pour copier, distribuer et
+modifier suivent.
+
+                    LICENCE PUBLIQUE GÉNÉRALE QC
+   TERMES ET CONDITIONS DE COPIE, DISTRIBUTION ET MODIFICATION
+
+  0. Cette licence s'applique à tout programme ou autre œuvre qui contient
+un avis déposé par le détenteur des droits d'auteur indiquant qu'il peut être distribué
+selon les termes de cette Licence Publique Générale. Le "Programme", ci-dessous,
+fait référence à ce programme ou à cette œuvre, et une "œuvre basée sur le Programme"
+signifie soit le Programme, soit toute œuvre dérivée sous la loi du droit d'auteur :
+c'est-à-dire, une œuvre contenant le Programme ou une partie de celui-ci,
+soit textuellement, soit avec des modifications et/ou traduite dans une autre
+langue. (Ci-après, la traduction est incluse sans limitation dans
+le terme "modification".) Chaque licencié est désigné par "vous".
+
+Les activités autres que la copie, la distribution et la modification ne sont pas
+couverts par cette licence ; elles sont hors de son champ d'application. L'acte de
+lancer le Programme n'est pas restreint, et la sortie du Programme est couverte uniquement
+si son contenu constitue une œuvre basée sur le Programme (indépendamment du fait qu'elle ait été réalisée
+en exécutant le Programme). Si cela est vrai dépend de ce que fait le Programme.
+
+  1. Vous pouvez copier et distribuer des copies exactes du code source du Programme tel
+que vous le recevez, sous n'importe quel support, à condition que vous
+publiiez de manière évidente et appropriée sur chaque copie un avis de
+copyright approprié et un avertissement de non-responsabilité ; que vous
+gardiez intactes toutes les mentions se rapportant à cette licence et à l'absence de garantie ;
+et que vous donniez à tout autre destinataire du Programme une copie de cette licence
+avec le Programme.
+
+Vous pouvez facturer des frais pour l'acte physique de transfert d'une copie, et
+vous pouvez, à votre choix, offrir une protection de garantie en échange d'un paiement.
+
+  2. Vous pouvez modifier votre copie ou vos copies du Programme ou toute partie
+de celui-ci, formant ainsi une œuvre basée sur le Programme, et copier et
+distribuer ces modifications ou cette œuvre selon les termes de la Section 1
+ci-dessus, à condition que vous remplissiez également toutes ces conditions :
+
+    a) Vous devez faire en sorte que les fichiers modifiés portent des avis
+    évidents indiquant que vous avez modifié les fichiers et la date de toute modification.
+
+    b) Vous devez faire en sorte que toute œuvre que vous distribuez ou publiez, qui en
+    tout ou en partie contient ou est dérivée du Programme ou de toute
+    partie de celui-ci, soit licenciée dans son ensemble gratuitement à toutes les tierces
+    parties sous les termes de cette licence.
+
+    c) Si le programme modifié lit normalement des commandes de manière interactive
+    lors de son exécution, vous devez faire en sorte qu'il, lorsqu'il commence à s'exécuter pour un tel
+    usage interactif de manière ordinaire, imprime ou affiche une annonce incluant un avis de copyright approprié et un
+    avis de non-garantie (ou bien, indiquant que vous fournissez
+    une garantie) et que les utilisateurs peuvent redistribuer le programme selon
+    ces conditions, et indiquer à l'utilisateur comment afficher une copie de cette
+    licence.  (Exception : si le Programme lui-même est interactif mais
+    ne normalise pas l'affichage d'une telle annonce, votre travail basé sur
+    le Programme n'est pas tenu de produire une annonce.)
+
+Ces exigences s'appliquent à l'œuvre modifiée dans son ensemble. Si
+des sections identifiables de cette œuvre ne sont pas dérivées du Programme,
+et peuvent être raisonnablement considérées comme des œuvres indépendantes et séparées
+en elles-mêmes, alors cette licence, et ses termes, ne s'appliquent pas à ces
+sections lorsque vous les distribuez en tant qu'œuvres séparées. Mais lorsque vous
+distribuez les mêmes sections comme faisant partie d'un ensemble basé
+sur le Programme, la distribution de l'ensemble doit se faire selon les termes de
+cette licence, dont les permissions pour d'autres licenciés s'étendent à l'ensemble,
+et donc à chaque partie, quelle que soit son auteur.
+
+Ainsi, l'intention de cette section n'est pas de revendiquer des droits ou contester
+vos droits sur des œuvres écrites entièrement par vous ; plutôt, l'intention est d'
+exercer le droit de contrôler la distribution d'œuvres dérivées ou collectives basées sur le Programme.
+
+De plus, une simple agrégation d'une autre œuvre non basée sur le Programme
+avec le Programme (ou avec une œuvre dérivée du Programme) dans un volume
+d'un support de stockage ou de distribution ne fait pas entrer l'autre œuvre sous
+le champ d'application de cette licence.
+
+  3. Vous pouvez copier et distribuer le Programme (ou une œuvre dérivée de celui-ci,
+selon la Section 2) sous forme de code objet ou exécutable selon les termes des
+Sections 1 et 2 ci-dessus, à condition que vous fassiez également l'une des actions suivantes :
+
+    a) L'accompagner du code source complet correspondant, qui doit être distribué selon les termes des
+    Sections 1 et 2 ci-dessus sur un support habituellement utilisé pour l'échange de logiciels ; ou,
+
+    b) L'accompagner d'une offre écrite, valide pendant au moins trois
+    ans, de fournir à toute tierce partie, contre une redevance ne dépassant pas vos
+    coûts de distribution physique du code source, une copie complète lisible par machine du code source
+    correspondant, à distribuer selon les termes des Sections 1 et 2 ci-dessus sur un support
+    habituellement utilisé pour l'échange de logiciels ; ou,
+
+    c) L'accompagner des informations que vous avez reçues concernant l'offre
+    de distribuer le code source correspondant.  (Cette alternative est
+    permise uniquement pour la distribution non commerciale et uniquement si vous
+    avez reçu le programme sous forme de code objet ou exécutable avec une telle
+    offre, conformément à la Sous-section b ci-dessus.)
+
+Le code source pour une œuvre signifie la forme préférée de l'œuvre pour
+effectuer des modifications.  Pour une œuvre exécutable, le code source complet
+signifie tout le code source pour tous les modules qu'elle contient, plus tous
+les fichiers de définition d'interface associés, plus les scripts utilisés pour
+contrôler la compilation et l'installation de l'exécutable.  Toutefois, en tant que
+exception spéciale, le code source distribué n'a pas besoin d'inclure
+ce qui est normalement distribué (en source ou en binaire)
+avec les composants majeurs (compilateur, noyau, etc.) du
+système d'exploitation sur lequel l'exécutable fonctionne, sauf si ce composant
+accompagne lui-même l'exécutable.
+
+Si la distribution du code exécutable ou objet se fait par offre
+d'accès pour en copier depuis un endroit désigné, alors offrir un accès équivalent
+pour copier le code source depuis ce même endroit compte comme
+distribution du code source, même si les tierces parties ne sont pas
+obligées de copier le source avec le code objet.
+
+  4. Vous ne pouvez pas copier, modifier, sous-licencier ou distribuer le Programme
+sauf si cela est expressément prévu par cette Licence. Toute tentative
+autre de copier, modifier, sous-licencier ou distribuer le Programme est
+nulle, et met automatiquement fin à vos droits sous cette Licence.
+Cependant, les parties qui ont reçu des copies, ou des droits, de votre part sous
+cette Licence ne verront pas leurs licences résiliées tant que ces parties restent en conformité complète.
+
+  5. Vous n'êtes pas obligé d'accepter cette Licence, car vous ne l'avez pas
+signée. Cependant, rien d'autre ne vous accorde la permission de modifier ou
+distribuer le Programme ou ses œuvres dérivées. Ces actions sont
+interdites par la loi si vous n'acceptez pas cette Licence. Par conséquent, en
+modifiant ou distribuant le Programme (ou toute œuvre dérivée du
+Programme), vous indiquez votre acceptation de cette Licence pour ce faire, et
+tous ses termes et conditions pour copier, distribuer ou modifier
+le Programme ou les œuvres dérivées.
