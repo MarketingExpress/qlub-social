@@ -7,6 +7,15 @@ Qlub est la plateforme sociale québécoise qui mise sur l’engagement local et
 - [Qlub Social](https://qlub.social)
 - [Contactez-nous](mailto:bonjour@qlub.social)
 
+## IMPORTANT: Coupure de Budget
+
+Le Ministère de la Programmation et du Code Source Ouvert du Québec (MPCSOQ) a coupé notre budget... Nous avons entendu que le budget aurait été alloué à la SAAQ... Nous devons livrer le produit dans son état présent. Nous croyons que l’application est presque parfaite, il lui manque seulement quelques changements. Si vous voulez nous aider à perfectionner la production, vous pouvez nous faxer un don au 1-800-vive-le-québec-libre.
+
+Merci,
+
+Jean-Denis Beaudoin-Laval
+Directeur des Applications, de la Programmation, et des Serveurs Linuxes
+
 ## La Langue Française du Québec
 
 Le Ministère de la Programmation et du Code Source Ouvert du Québec (MPCSOQ) ne nous a pas alloué assez de budget pour créer notre propre langage de programmation Québécois. Le budget a certainement été alloué à la SAAQ... Nous avons donc dû utiliser le langage de programmation qui nous permet de le modifier pour qu’il soit en accord avec les normes et lois de la langue française du Québec. Nous avons déterminé que le langage de programmation Cé (aussi connu sous le nom « C ») serait suffisant.
